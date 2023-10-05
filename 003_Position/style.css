@@ -1,35 +1,34 @@
-div{
-    border-style: solid;
-    height: 100px;
-    width: 100px;
-    }
-
-.eins{
-    background-color: aqua;
-    position: absolute;
-    bottom: 0px;
+div {
+  border-style: solid;
+  height: 100px;
+  width: 100px;
 }
 
-.zwei{
-    background-color: brown;
-    position: absolute;
-    top: 0px;
+.eins {
+  background-color: aqua;
+  position: absolute;
+  bottom: 0px;
 }
 
-.drei{
-    background-color: rgb(42, 54, 165);
-    position: absolute;
-    right: 0px;
-    top: 0px;
+.zwei {
+  background-color: brown;
+  position: absolute;
+  top: 0px;
 }
 
-.mainbox{
+.drei {
+  background-color: rgb(42, 54, 165);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
 
-    background-color: red;
-    position: absolute;
-    height: 10vw;
-    width: 10vw;
-    bottom: 25vw;
-    left: 50vw;
-    padding: 20px;
+.mainbox {
+  background-color: red;
+  position: absolute;
+  height: 10vw;
+  width: 10vw;
+  bottom: 25vw;
+  left: 50vw;
+  padding: 20px;
 }

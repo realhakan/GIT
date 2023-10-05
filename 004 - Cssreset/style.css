@@ -1,0 +1,11 @@
+body {
+    background-image:linear-gradient( to right, rgb(19, 18, 18), rgb(206, 206, 206));
+
+   }
+
+   .eins{
+    font-size: 5vw;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+   }
