@@ -1,9 +1,20 @@
+
+
+
 .heading{
-    background-color: rgba(70, 69, 69, 0.418);
+    position: fixed;
+    width: 1920vw;
     padding: 3vw;
+    font-size: 19px;
+    color: white;
     margin-right: -1vw;
     margin-top: -1vw;
     margin-left: -1vw;
+    background-image:linear-gradient(to right, rgb(19, 18, 18), rgb(83, 82, 82));
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    text-shadow: 0 0 10px #fff,;
 }
 
 .iconhome{
@@ -13,4 +24,57 @@ top: 2.5vw;
 right: 3vw;
 margin-top: 0vw;
 margin-right: 0vw;
+}
+
+.box1{
+    position: absolute;
+    top: 15vw;
+    left:3vw;
+    font-size: 1vw;
+    width: 10vw;
+    color: white;
+    background-color: rgb(27, 26, 26);
+    border-radius: 1vw;
+    border-style: solid;
+    padding: 1vw;
+    box-shadow: 10vw;
+    box-shadow: 0vw 0vw 10vw -2vw rgb(122, 4, 103);
+    lighting-color: aqua;
+}
+
+.box2{
+    position: absolute;
+    top: 15vw;
+    right: 3vw;
+    font-size: 1vw;
+    width: 10vw;
+    color: white;
+    background-color: rgba(27, 26, 26, 0.298);
+    border-radius: 1vw;
+    border-style: solid;
+    padding: 1vw;
+    box-shadow: 0vw 0vw 10vw -2vw rgb(122, 4, 103);
+    lighting-color: aqua;
+}
+
+.kaufbutton{
+position: fixed;
+bottom: 5vw; 
+right: 42vw;
+width: 15vw;
+height: 1.5vw;
+background-image:linear-gradient(to right, rgb(55, 54, 54), rgb(83, 82, 82));
+border-radius: 1vw;
+border-style: solid;
+border-color: white;
+
+
+}
+
+.warenkorb{
+    position: fixed;
+    bottom: 5vw;
+    width: 1vw;
+    color: white;
+
 }
