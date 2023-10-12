@@ -1,0 +1,17 @@
+*{
+    box-sizing:content-box;
+
+}
+
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+
+.zwei {
+    padding: 15px;
+    border-style: solid;
+}
