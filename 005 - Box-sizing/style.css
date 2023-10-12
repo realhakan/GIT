@@ -1,8 +1,6 @@
-*{
-    box-sizing:content-box;
-
+* {
+  box-sizing: content-box;
 }
-
 
 div {
   height: 100px;
@@ -10,8 +8,7 @@ div {
   background-color: red;
 }
 
-
 .zwei {
-    padding: 15px;
-    border-style: solid;
+  padding: 15px;
+  border-style: solid;
 }

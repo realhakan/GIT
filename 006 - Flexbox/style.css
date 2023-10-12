@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(to right, black, purple);
+}
+
+.box {
+  font-size: 30px;
+  color: white;
+  background-image: linear-gradient(to right, black, purple);
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.699);
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
