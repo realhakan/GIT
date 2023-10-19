@@ -1,0 +1,23 @@
+.heading {
+  position: fixed;
+  width: 100vw;
+  height: 5vw;
+  top: 0px;
+  left: 0px;
+  background-color: grey;
+}
+
+.box {
+  display: flex;
+}
+
+.box1 {
+  position: fixed;
+  display: inline-flex;
+  width: 2vw;
+  height: 2vw;
+  right: 10vw;
+  top: 1vw;
+  background-color: black;
+  margin: 5px;
+}
