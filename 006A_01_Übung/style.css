@@ -1,57 +1,52 @@
-.heading {
-  position: fixed;
-  width: 100vw;
-  height: 5vw;
-  top: 0px;
-  left: 0px;
-  background-color: grey;
+.box{
+    position: relative; 
+    height: 50vh;
+    width: 50vh;
+    background-color: aqua;
 }
 
-.box {
-  display: block;
-}
-
-.box1 {
-  position: relative;
-  top: 0vw;
-  left: 80vw;
-  width: 1vw;
-  height: 1.5vw;
-  background-color: black;
-  padding: 0.5vw;
-  margin: 1vw;
-  display: inline-block;
-}
-
-.textbox {
-    position: relative;
-  width: 400px;
-  height: 300px;
-  background-color: rgba(128, 128, 128, 0.493);
-  margin: 20px;
-  padding: 20px;
-}
-
-.text{
-    position: relative;
-    top: 20px;
-
-}
-
-.innerbox{
-    position:absolute;
-    width: 100px;
+.box2{
+    position: absolute; 
     height: 100px;
-    background-color: aqua;
-    bottom: 0px;
+    width: 100px;
+    background-color: rgb(255, 4, 12);
     right: 0px;
+    bottom: 0px;
 }
 
-.box3{
+.willkommen{
     position: absolute;
-    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.eins{
+    position: absolute;
+    margin-top: 10px;
+    align-content: center;
+}
+
+.outbox{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: brown;
+    width: 50px;
+    height: 50px
+}
+
+.boxwithblock{
+    position: relative;
+    margin-top: 50px;
+    background-color: yellow;
+    height: 20vh;
+    display: flex;
+}
+
+.boxes{
+    position: absolute;
+    background-color: green;
     width: 50px;
     height: 50px;
-    bottom: 0px;
-    right: 0px;
 }
+
