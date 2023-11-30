@@ -1,4 +1,4 @@
-Zewas = "Guten Tag"
+Zewas = "Willkommen!"
 
 console.log(Zewas)
 
