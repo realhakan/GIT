@@ -14,19 +14,17 @@
 const nummer1 = Math.floor(Math.random() * 101);
 const nummer2 = Math.floor(Math.random() * 101);
  
-
-console.log("Zahl 1: "+nummer1);
-console.log("Zahl 2: "+nummer2);
- 
-
 if (nummer1 < nummer2 && nummer1 < 50) {
-  console.log("Zahl 1 ist kleiner als Zahl 2 und Mini");
+  console.log("Zahl 1 ist kleiner als Zahl 2");
 }
  
-if (nummer1 < 30 || nummer2 < 30) {
-  console.log("Eine der beiden ist kleiner als 30");
+if (nummer1 < 30 && nummer2 < 30) {
+  console.log("Die beiden zahlen sind kleiner als 30");
 }
  
 if (nummer1 < 50 && nummer2 !== 50) {
-  console.log("Erste Zahl klein, zweite kein 50iger");
+    console.log("Die erste Zahl ist größer als die Zweite, die Zweite Zahl ist kleiner als 50");
 }
+
+console.log("Zahl 1: "+nummer1);
+console.log("Zahl 2: "+nummer2);
