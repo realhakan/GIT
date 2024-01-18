@@ -23,7 +23,7 @@ if (nummer1 < 30 && nummer2 < 30) {
 }
  
 if (nummer1 < 50 && nummer2 !== 50) {
-    console.log("Die erste Zahl ist größer als die Zweite, die Zweite Zahl ist kleiner als 50");
+    console.log("Die erste Zahl ist kleiner als 50 und die zweite Zahl ist nicht gleich 50");
 }
 
 console.log("Zahl 1: "+nummer1);
